@@ -37,7 +37,7 @@ import (
 	"github.com/raff/godet"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/semaphore"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
+	kingpin "github.com/alecthomas/kingpin"
 	gomail "gopkg.in/gomail.v2"
 )
 
