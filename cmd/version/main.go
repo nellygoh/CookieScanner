@@ -22,7 +22,7 @@ import (
 	"github.com/CovenantSQL/CookieScanner/utils"
 	"github.com/gobs/pretty"
 	"github.com/pkg/errors"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
+	kingpin "github.com/alecthomas/kingpin"
 )
 
 func RegisterCommand(app *kingpin.Application, opts *cmd.CommonOptions) {
